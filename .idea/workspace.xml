@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="451cee62-28ab-4633-836a-e19f5b253b49" name="Changes" comment="keylogger Start">
+    <list default="true" id="451cee62-28ab-4633-836a-e19f5b253b49" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my_key_logger.py" beforeDir="false" afterPath="$PROJECT_DIR$/my_key_logger.py" afterDir="false" />
     </list>
@@ -21,6 +21,12 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--follow-tags" />
+        <option name="title" value="Current Branch" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectColorInfo">{
@@ -37,7 +43,8 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "/home/austine/PycharmProjects/Keylogger"
+    "last_opened_file_path": "/home/austine/PycharmProjects/Keylogger",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
   <component name="SharedIndexes">
@@ -64,11 +71,20 @@
       <option name="project" value="LOCAL" />
       <updated>1708315524770</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="handling errors">
+      <option name="closed" value="true" />
+      <created>1708518880857</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1708518880857</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="keylogger Start" />
-    <option name="LAST_COMMIT_MESSAGE" value="keylogger Start" />
+    <MESSAGE value="handling errors" />
+    <option name="LAST_COMMIT_MESSAGE" value="handling errors" />
   </component>
 </project>
